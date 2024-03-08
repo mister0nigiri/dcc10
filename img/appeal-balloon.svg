@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="156" viewBox="0 0 335 156">
+  <g id="グループ_47" data-name="グループ 47" transform="translate(-20 -7535)">
+    <rect id="長方形_112" data-name="長方形 112" width="335" height="70" rx="30" transform="translate(20 7535)" fill="#fff"/>
+    <path id="長方形_112_-_アウトライン" data-name="長方形 112 - アウトライン" d="M30,2A27.975,27.975,0,0,0,2,30V40A27.975,27.975,0,0,0,30,68H305a27.975,27.975,0,0,0,28-28V30A27.975,27.975,0,0,0,305,2H30m0-2H305a30,30,0,0,1,30,30V40a30,30,0,0,1-30,30H30A30,30,0,0,1,0,40V30A30,30,0,0,1,30,0Z" transform="translate(20 7535)" fill="#707070"/>
+    <rect id="長方形_156" data-name="長方形 156" width="86" height="16" rx="8" transform="translate(54 7613)" fill="#fff"/>
+    <path id="長方形_156_-_アウトライン" data-name="長方形 156 - アウトライン" d="M8,2A6,6,0,0,0,8,14H78A6,6,0,0,0,78,2H8M8,0H78a8,8,0,0,1,0,16H8A8,8,0,0,1,8,0Z" transform="translate(54 7613)" fill="#707070"/>
+    <rect id="長方形_157" data-name="長方形 157" width="61" height="16" rx="8" transform="translate(97 7635)" fill="#fff"/>
+    <path id="長方形_157_-_アウトライン" data-name="長方形 157 - アウトライン" d="M8,2A6,6,0,0,0,8,14H53A6,6,0,0,0,53,2H8M8,0H53a8,8,0,0,1,0,16H8A8,8,0,0,1,8,0Z" transform="translate(97 7635)" fill="#707070"/>
+    <rect id="長方形_159" data-name="長方形 159" width="37" height="16" rx="8" transform="translate(139 7656)" fill="#fff"/>
+    <path id="長方形_159_-_アウトライン" data-name="長方形 159 - アウトライン" d="M8,2A6,6,0,0,0,8,14H29A6,6,0,0,0,29,2H8M8,0H29a8,8,0,0,1,0,16H8A8,8,0,0,1,8,0Z" transform="translate(139 7656)" fill="#707070"/>
+    <rect id="長方形_158" data-name="長方形 158" width="21" height="16" rx="8" transform="translate(168 7675)" fill="#fff"/>
+    <path id="長方形_158_-_アウトライン" data-name="長方形 158 - アウトライン" d="M8,2A6,6,0,0,0,8,14h5A6,6,0,0,0,13,2H8M8,0h5a8,8,0,0,1,0,16H8A8,8,0,0,1,8,0Z" transform="translate(168 7675)" fill="#707070"/>
+  </g>
+</svg>
