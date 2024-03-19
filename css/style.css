@@ -23,11 +23,11 @@ img{
 }
 
 .wrapper{
-  max-width: 1170px;
+  max-width: 390px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 li{
