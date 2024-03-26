@@ -6,14 +6,14 @@ html{
 }
 
 body{
-  color: #333;
+  color: #272726;
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
   font-family: 'メイリオ', 'Meiryo', sans-serif;
 }
 
 a{
   text-decoration: none;
-  color: #333;
+  color: #272726;
 }
 
 img{
@@ -26,10 +26,142 @@ img{
   max-width: 390px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: solid;
 }
 
 li{
   list-style: none;
 }
+
+
+/* Header */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #e7e8ea;
+}
+
+.site-title{
+  line-height: 1px;
+}
+
+.site-title a{
+  display: block;
+}
+
+.header__btn{
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #707070;
+  padding: 6px 20px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: .1em;
+}
+
+/* Top */
+
+.top{
+  padding-top: 70px;
+  background-color: #e7e8ea;
+  position: relative;
+}
+
+.top__title{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.top__text{
+  padding-left: 10px;
+  border-left: 1px solid #272726;
+  letter-spacing: .1em;
+  font-size: 1.125rem;
+  position: absolute;
+  top: 150px;
+  z-index: 2;
+}
+
+.top__img{
+  margin-top: 50px;
+  transform: translateX(20px);
+}
+
+.top__btn{
+  margin-top: 20px;
+}
+
+.list__btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.apple{
+  width: 47%;
+}
+
+.apple a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 0.75rem;
+  border: 1px solid #707070;
+  border-radius: 15px;
+}
+
+.fa-apple{
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+
+.apple__text{
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.apple__text span{
+  font-size: 1rem;
+}
+.google{
+  width: 47%;
+}
+
+.google a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 0.75rem;
+  border: 1px solid #707070;
+  border-radius: 15px;
+}
+
+.fa-google-play{
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+
+.google__text{
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.google__text span{
+  font-size: 1rem;
+}
+
+/* SUGGESTION */
