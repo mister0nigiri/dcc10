@@ -36,7 +36,7 @@ li{
 }
 
 
-/* Header */
+/* HEADER */
 
 .header{
   display: flex;
@@ -66,10 +66,11 @@ li{
   letter-spacing: .1em;
 }
 
-/* Top */
+/* TOP */
 
 .top{
   padding-top: 70px;
+  padding-bottom: 20px;
   background-color: #e7e8ea;
   position: relative;
 }
@@ -112,7 +113,6 @@ li{
 .apple a{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #0e0e0e;
   color: #fff;
   padding: 10px 16px;
@@ -141,7 +141,6 @@ li{
 .google a{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: #0e0e0e;
   color: #fff;
   padding: 10px 16px;
@@ -165,3 +164,97 @@ li{
 }
 
 /* SUGGESTION */
+
+.suggestion__top{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion__title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.suggestion__content{
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  background-color: #efefef;
+  padding-top: 105px;
+}
+
+.suggestion__content__list{
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+
+.suggestion__content__list li{
+  background-color: #fff;
+  padding: 10px 20px;
+  width: fit-content;
+  outline: solid 1px #272726;
+  border-radius: 30px;
+}
+
+.suggestion__content__list li:first-of-type{
+  margin-left: 25px;
+}
+
+.suggestion__content__list li:nth-of-type(2){
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.suggestion__content__list li:last-of-type{
+  margin-top: 20px;
+}
+
+/* FEATURE */
+
+.feature{
+  margin-top: 40px;
+}
+
+.feature__title{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.feature__title::before{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 32px;
+  left: 14px;
+  width: 50px;
+  height: 6px;
+  background-color: #272726;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.feature__title::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 32px;
+  right: 14px;
+  width: 50px;
+  height: 6px;
+  background-color: #272726;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.feature__description{
+  margin-top: 40px;
+  text-align: center;
+}
