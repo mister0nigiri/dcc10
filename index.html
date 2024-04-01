@@ -19,6 +19,7 @@
   <link rel="icon" href="img/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/2a488d4793.js" ,crossorigin="anonymous"></script>
@@ -28,6 +29,7 @@
   <script src="js/main.js" defer></script>
 </head>
 <body>
+  <div class="pc-bg"></div>
   <header class="header wrapper">
     <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="カフェジョブ"></a></h1>
     <a class="header__btn" href="#">求人掲載はこちら</a>
@@ -62,9 +64,9 @@
       </div>
       <div class="suggestion__content wrapper">
         <ul class="suggestion__content__list">
-          <li>バリスタを目指したい</li>
-          <li>おしゃれなカフェで働きたい</li>
-          <li>接客で人と触れ合いたい</li>          
+          <li class="animate__animated bounce">バリスタを目指したい</li>
+          <li class="animate__animated bounce">おしゃれなカフェで働きたい</li>
+          <li class="animate__animated bounce">接客で人と触れ合いたい</li>          
         </ul>
         <div class="suggestion__img"><img src="img/suggestion-img.png" alt=""></div>
       </div>
@@ -148,7 +150,7 @@
     </section>
     <section class="recommend">
       <div class="recommend__check-wrapper wrapper">
-        <span class="recommend__check">check!</span>
+        <span class="recommend__check animate__animated animate__repeat-3">check!</span>
       </div>
       <h2 class="recommend__title">カフェで働くなら<br>カフェジョブがおすすめ!</h2>
       <div class="cross-table wrapper">
@@ -213,16 +215,16 @@
     <section class="interview">
       <div class="interview__inner wrapper">
         <h2 class="interview__title">体験インタビュー</h2>
-        <a href="interview1.html" class="interview__answer">
+        <a href="interview1.html" class="interview__answer animate__animated bounce">
           <div class="interview__answer__img"><img src="img/interview-face-1.png" alt=""></div>
           <div class="interview__arrow">>></div>
           <h3 class="interview__answer__title">人気のカフェで<br>毎日楽しく働いています!</h3>
         </a>
-        <a href="#" class="interview__answer">
+        <a href="#" class="interview__answer animate__animated bounce">
           <div class="interview__answer__img"><img src="img/interview-face.png" alt=""></div>
           <h3 class="interview__answer__title">coming soon.</h3>
         </a>
-        <a href="#" class="interview__answer">
+        <a href="#" class="interview__answer animate__animated bounce">
           <div class="interview__answer__img"><img src="img/interview-face.png" alt=""></div>
           <h3 class="interview__answer__title">coming soon.</h3>
         </a>
@@ -232,7 +234,7 @@
     <section class="appeal">
       <div class="appeal__inner wrapper">
         <h2 class="appeal__title">あなたはどんなカフェで<br>働きたい？</h2>
-        <div class="appeal__bubble">
+        <div class="appeal__bubble animate__animated bounce">
           <img src="img/appeal-balloon.svg" alt="">
           <ul class="appeal__bubble__list">
             <li>近所のカフェ</li>
@@ -276,6 +278,7 @@
     <p class="copyright wrapper">
       <small>&copy; Cafe Job. All Rights Reserved.</small>
     </p>
+    <a href="#" class="page-top"></a>
   </footer>
 </body>
 </html>
