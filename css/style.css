@@ -7,8 +7,9 @@ html{
 
 body{
   color: #272726;
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
-  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a{
@@ -63,6 +64,12 @@ li{
   border-radius: 30px;
   font-size: 0.75rem;
   letter-spacing: .1em;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.header__btn:hover{
+  opacity: .7;
 }
 
 /* TOP */
@@ -118,6 +125,11 @@ li{
   font-size: 0.75rem;
   border: 1px solid #707070;
   border-radius: 15px;
+  transition: .3s;
+}
+
+.apple a:hover{
+  opacity: .7;
 }
 
 .fa-apple{
@@ -146,6 +158,11 @@ li{
   font-size: 0.75rem;
   border: 1px solid #707070;
   border-radius: 15px;
+  transition: .3s;
+}
+
+.google a:hover{
+  opacity: .7;
 }
 
 .fa-google-play{
@@ -781,7 +798,6 @@ li{
 
 .appeal__bubble img{
   width: 100%;
-  height: 163px;
 }
 
 .appeal__bubble__list{
@@ -967,6 +983,11 @@ li{
   bottom: 52px;
   left: 50%;
   transform: translateX(-50%);
+  transition: .3s;
+}
+
+.page-top:hover{
+  opacity: .9;
 }
 
 .page-top::before{
@@ -1005,6 +1026,11 @@ interview1.html
   text-transform: uppercase;
   font-size: 1.125rem;
   font-weight: bold;
+  transition: .3s;
+}
+
+.toTop:hover{
+  opacity: .7;
 }
 
 .toTop:first-of-type{
@@ -1111,4 +1137,119 @@ interview1.html
     filter: opacity(0.3);
   }
 
+}
+
+/* スマホ表示 */
+
+@media screen and (max-width: 380px) {
+
+  /* TOP */
+
+  .apple{
+    width: 48%;
+  }
+
+  .apple a{
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+  
+  .fa-apple{
+    font-size: 1.125rem;
+    margin-right: 0px;
+  }
+  
+  .google{
+    width: 48%;
+  }
+  
+  .google a{
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+  
+  .fa-google-play{
+    font-size: 1.125rem;
+    margin-right: 0px;
+  }
+  
+  /* SUGGESTION */
+
+  .suggestion__title{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .suggestion__content{
+    padding-top: 140px;
+  }
+
+  .suggestion__content__list li{
+    padding: 10px 15px;
+  }
+
+  .suggestion__content__list li:first-of-type{
+    margin-left: 10px;
+  }
+
+  .suggestion__content__list li:nth-of-type(2){
+    margin-left: 50px;
+  }
+
+  /* FEATURE */
+
+  .feature__title{
+    font-size: 1.25rem;
+  }
+
+  .feature__title::before{
+    left: 10px;
+  }
+
+  .feature__title::after{
+    right: 10px;
+  }
+
+  /* CASE */
+
+  .case__title{
+    font-size: 1.25rem;
+  }
+
+  .case__title::before{
+    left: 10px;
+  }
+
+  .case__title::after{
+    right: 10px;
+  }
+
+  /* INTERVIEW */
+
+  .interview__title{
+    font-size: 1.25rem;
+  }
+
+  .interview__title::before{
+    left: 5px;
+  }
+
+  .interview__title::after{
+    right: 5px;
+  }
+
+  /* APPEAL */
+
+  .appeal__inner{
+    padding-bottom: 380px;
+  }
+  
+  .appeal__bubble__list{
+    height: 30px;
+    top: 12px;
+  }
+
+  .appeal__woman img{
+    height: auto;
+  }
 }
