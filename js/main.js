@@ -33,23 +33,23 @@ observer.observe(check);
 
 
 
+// IntersectionObserverの作成
+const observerBounce = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+      const bounce = entry.target;
+      // 要素が画面内に入っている場合
+      if (entry.isIntersecting) {
+          bounce.classList.add('animate__bounceIn');
+          // 監視を一時停止する
+          observer.unobserve(bounce);
+      }
+  });
+});
 
 // 全ての .bounce 要素を取得
 const bounces = document.querySelectorAll('.bounce');
 
-// 各要素に対してIntersectionObserverを作成し、監視を開始する
+// 各要素に対してIntersectionObserverを適用し、監視を開始する
 bounces.forEach(bounce => {
-    const observerBounce = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            // 要素が画面内に入っている場合
-            if (entry.isIntersecting) {
-                bounce.classList.add('animate__bounceIn');
-            } else {
-                // 要素が画面外に出ている場合
-                bounce.classList.remove('animate__bounceIn');
-            }
-        });
-    });
-
-    observerBounce.observe(bounce);
+  observerBounce.observe(bounce);
 });
