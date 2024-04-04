@@ -510,8 +510,9 @@ li{
   margin-left: 13px;
   font-size: 1.25rem;
   position: absolute;
-  top: 5px;
+  top: 3px;
   right: 8px;
+  font-style: normal;
 }
 
 .case__triangle{
@@ -1146,31 +1147,27 @@ interview1.html
   /* TOP */
 
   .apple{
-    width: 48%;
+    width: 47%;
   }
 
   .apple a{
-    justify-content: space-between;
     padding: 10px 10px;
   }
   
   .fa-apple{
     font-size: 1.125rem;
-    margin-right: 0px;
   }
   
   .google{
-    width: 48%;
+    width: 47%;
   }
   
   .google a{
-    justify-content: space-between;
     padding: 10px 10px;
   }
   
   .fa-google-play{
     font-size: 1.125rem;
-    margin-right: 0px;
   }
   
   /* SUGGESTION */
